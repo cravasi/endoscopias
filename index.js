@@ -1,11 +1,21 @@
-let numeroDni=prompt("Ingrese su DNI");
+let numeroDni=+prompt("Ingrese su DNI");
 let password=+prompt("Ingrese su clave");
 
 while(numeroDni!=password){
     alert("INCORRECTO..  Ingrese su clave de nuevo!!");
     password=+prompt("Ingrese su clave");
 }
-
+//?? Opcion b al acceso con clave..
+//const dni=+prompt("Ingrese su DNI")
+// let i=0;
+// let numero=+prompt("ingrese un numero de 4 digitos");
+// let clave=numero+1;
+// alert("la clave se genero exitosamente");
+// let ingreseClave=+prompt("ingrese la clave generada automaticamente, recuerde lo que el medico le dijo para conocer su CLAVE");
+// while(clave!=ingreseClave){
+//     alert("acceso denegado");
+//     ingreseClave=+prompt("ingrese la clave generada");
+// }
 //////////////////////////////////////////////////////////////////////////////
 const openEls = document.querySelectorAll("[data-open]");
 const closeEls = document.querySelectorAll("[data-close]");
